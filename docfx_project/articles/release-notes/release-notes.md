@@ -1,3 +1,3 @@
 # Release Notes
 
-**Current Version:** 0.4
+**Current Version:** 0.5
