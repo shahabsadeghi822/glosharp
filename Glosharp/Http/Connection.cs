@@ -17,7 +17,6 @@ namespace Glosharp.Http
     {
         private static readonly Uri DefaultGloApiUrl = GloClient.GloApiUrl;
         private Configuration _configuration { get; set; }
-        private HttpClient _httpClient;
         
         /// <inheritdoc />
         /// <summary>
@@ -80,7 +79,6 @@ namespace Glosharp.Http
             
             
             BaseAddress = baseAddress;
-            _httpClient = httpClient;
             _configuration = configuration;
         }
 
