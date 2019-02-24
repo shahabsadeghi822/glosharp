@@ -9,7 +9,7 @@
           ]
         }
       ],
-      "dest": ".",
+      "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }

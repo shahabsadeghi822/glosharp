@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Glosharp.Http
 {
-    // <summary>
+    /// <summary>
     /// A response from an API call that includes the deserialized object instance.
     /// </summary>
+    /// <typeparam name="T"></typeparam>
     public interface IApiResponse<out T>
     {
         /// <summary>

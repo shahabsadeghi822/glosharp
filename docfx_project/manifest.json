@@ -1,0 +1,702 @@
+{
+  "homepages": [],
+  "source_base_path": "P:/projects/glosharp/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.ApiClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.ApiClient.html",
+          "hash": "aQnRyKMUNxBoF3Ka76p8jQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.BoardsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.BoardsClient.html",
+          "hash": "Z/Ls4cuKZyWg1nw72dw1zg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.CardsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.CardsClient.html",
+          "hash": "QChYGKwNQY4AJx47XJc/eQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.ColumnClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.ColumnClient.html",
+          "hash": "q1IYbLRqBCSqa/yV4ubI2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.IBoardsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.IBoardsClient.html",
+          "hash": "zzRNrUDSxU2S6tqLkouRUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.ICardsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.ICardsClient.html",
+          "hash": "6Mce5h9kpJco4vadfM5sDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.IColumnClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.IColumnClient.html",
+          "hash": "gKXJ72tzaGfU40xKHibBaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.IUserClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.IUserClient.html",
+          "hash": "+DFZ/M5xuP/GBaKs21VgFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.UserClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.UserClient.html",
+          "hash": "Jql9cTCSk3YJB0yo6+jqSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Clients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Clients.html",
+          "hash": "HjIOsDDFpouVXxEOVx7t0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.GloClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.GloClient.html",
+          "hash": "rFN1pdxl5dWeh+zAoQc0og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Helpers.ApiUrls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Helpers.ApiUrls.html",
+          "hash": "TJaECRRfROqF5irW+Z+umg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Helpers.html",
+          "hash": "dU85Th3F+XP6NzgpHBy1nQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Http.ApiConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Http.ApiConnection.html",
+          "hash": "fxQC1Ec3+ujcFVWSgD/I+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Http.Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Http.Connection.html",
+          "hash": "ugVGzJQKHpU7GPi7NITuMA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Http.IApiConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Http.IApiConnection.html",
+          "hash": "UKQ2fF0qU4/EagyVgMr0Rw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Http.IApiResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Http.IApiResponse-1.html",
+          "hash": "i2lIBAJmr9YlwVGJ4wrxYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Http.IConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Http.IConnection.html",
+          "hash": "JHIST2bcef49qb+c5ZHLYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Http.IResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Http.IResponse.html",
+          "hash": "RisFYEYEqy8JnToUD/ezlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Http.html",
+          "hash": "hixaxQ6ueBY8QUNDeb+h8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.IGloClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.IGloClient.html",
+          "hash": "AKO/EY5ib0aihhiJK7/4dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Internals.IRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Internals.IRequest.html",
+          "hash": "35xKH/kho8bektMUYDowzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Internals.Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Internals.Request.html",
+          "hash": "UeDuLwU85oVpHCYrkxO6OA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Internals.html",
+          "hash": "TRNJRPIOp8FXHPWnL/kY7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Configuration.html",
+          "hash": "gE5j5KfhAY9bupyjU8mGQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Request.ApiOptions.Sort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Request.ApiOptions.Sort.html",
+          "hash": "QS1kjv9C7HnpuzHXlPUGKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Request.ApiOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Request.ApiOptions.html",
+          "hash": "D8o2Dpns52m8wQh/w2x8NA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Request.ScopeOptions.Scopes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Request.ScopeOptions.Scopes.html",
+          "hash": "GNiY7SOhivp10EsaJzY6QQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Request.ScopeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Request.ScopeOptions.html",
+          "hash": "R5bEGKdoN+Zl/qoUAvbYOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Request.html",
+          "hash": "Nz+EWcDJLhxIR3AeGD82ZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.Board.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.Board.html",
+          "hash": "5Qi5TjSJRciNsZ3csjVldg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.BoardColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.BoardColumn.html",
+          "hash": "q8jdvPbV3613/BkV6eMD+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.BoardMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.BoardMember.html",
+          "hash": "7aaE9XvMc7gXEGPzqt3neA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.Card.html",
+          "hash": "wiSxxc2QGHtyfKRFN/0JvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.CardDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.CardDescription.html",
+          "hash": "CFsQPhfMpglNHPKH/n2lMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.Column.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.Column.html",
+          "hash": "Gn9q1FaTalTnz79a6obRyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.Label.html",
+          "hash": "VOUHI6M9xTjpiL/F+S0uZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.LabelColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.LabelColor.html",
+          "hash": "4gwPnFJBLxHzSfOBv28FtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.PartialLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.PartialLabel.html",
+          "hash": "2DAnrV0rWSMKJz/OxokZ1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.PartialUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.PartialUser.html",
+          "hash": "0uTf+OP7bC2gqEGwj1mIeg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.PartialUserId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.PartialUserId.html",
+          "hash": "hAtmN8g/FrHT9vfRNHDWQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.User.html",
+          "hash": "UrulKe8j6d98C2aOSizo2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.Response.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.Response.html",
+          "hash": "Zj0ki1OSEzPOPfBmNmK0qQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.Models.html",
+          "hash": "wMF6wHGQR/yL2yjIXNn7wQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Glosharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Glosharp.html",
+          "hash": "L+v1QX+bDoXU8JEGjXgnoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "8BUWHoVBv2rIoTy5fPg9PA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "OxsJpZ0m8MKV2MnwGbpaPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "MdLLvsN6AVQ/iSr3qRRxpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/release-notes/release-notes.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/release-notes/release-notes.html",
+          "hash": "VSCaeWCbCnKcHO5djqWYUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/release-notes/v0.4.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/release-notes/v0.4.html",
+          "hash": "1wBahGNfPQ0OkbmI9C19iQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/release-notes/v0.5.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/release-notes/v0.5.html",
+          "hash": "LN8EGX+B8bn0h70kKReJbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "Lh2jgx345HNRwFN+hZT7iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "LWM1APYlexQgMCv5JGC8/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 6
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 45,
+          "skipped_file_count": 44
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
