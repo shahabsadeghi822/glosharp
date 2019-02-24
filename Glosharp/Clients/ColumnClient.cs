@@ -49,7 +49,7 @@ namespace Glosharp.Clients
                 response.Data);
         }
 
-        public async Task<Column> Update(string boardId, Column column)
+        public async Task<Tuple<HttpStatusCode, string, Column>> Update(string boardId, Column column)
         {
             var client = new RestClient(GloClient.GloApiUrl);
             var json = JsonConvert.SerializeObject(column);
@@ -61,18 +61,19 @@ namespace Glosharp.Clients
 
             var response = client.Post<Column>(request);
 
-            return response.Data;
+            return new Tuple<HttpStatusCode, string, Column>(response.StatusCode, response.StatusDescription,
+                response.Data);
 
         }
 
-        public async Task<HttpStatusCode> Delete(string boardId, string columnId)
+        public async Task<Tuple<HttpStatusCode, string>> Delete(string boardId, string columnId)
         {
             var client = new RestClient(GloClient.GloApiUrl);
             var request = new RestRequest(ApiUrls.DeleteColumn(boardId, columnId));
             request.AddHeader("Authorization", $"Bearer {_apiConnection.Configuration.Token}");
             var response = client.Delete(request);
 
-            return response.StatusCode;
+            return new Tuple<HttpStatusCode, string>(response.StatusCode, response.StatusDescription);
         }
     }
 }

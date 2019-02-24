@@ -85,10 +85,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/glosharp/glosharp/new/feature/cards/apiSpec/new?filename=Glosharp_Clients_IColumnClient_Create_System_String_Glosharp_Models_Response_Column_.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient.Create(System.String%2CGlosharp.Models.Response.Column)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/glosharp/glosharp/new/develop/apiSpec/new?filename=Glosharp_Clients_IColumnClient_Create_System_String_Glosharp_Models_Response_Column_.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient.Create(System.String%2CGlosharp.Models.Response.Column)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/glosharp/glosharp/blob/feature/cards/Glosharp/Clients/IColumnClient.cs/#L31">View Source</a>
+    <a href="https://github.com/glosharp/glosharp/blob/develop/Glosharp/Clients/IColumnClient.cs/#L49">View Source</a>
   </span>
   <a id="Glosharp_Clients_IColumnClient_Create_" data-uid="Glosharp.Clients.IColumnClient.Create*"></a>
   <h4 id="Glosharp_Clients_IColumnClient_Create_System_String_Glosharp_Models_Response_Column_" data-uid="Glosharp.Clients.IColumnClient.Create(System.String,Glosharp.Models.Response.Column)">Create(String, Column)</h4>
@@ -98,6 +98,182 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;Tuple&lt;HttpStatusCode, string, Column&gt;&gt; Create(string boardId, Column column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">boardId</span></td>
+        <td><p>A <a class="xref" href="Glosharp.Models.Response.Board.html">Board</a> Id to reference</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Glosharp.Models.Response.Column.html">Column</a></td>
+        <td><span class="parametername">column</span></td>
+        <td><p><a class="xref" href="Glosharp.Models.Response.Column.html">Column</a>
+A new <a class="xref" href="Glosharp.Models.Response.Column.html">Column</a> that will be created</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Tuple</span>&lt;<span class="xref">System.Net.HttpStatusCode</span>, <span class="xref">System.String</span>, <a class="xref" href="Glosharp.Models.Response.Column.html">Column</a>&gt;&gt;</td>
+        <td><p>Tuple with 3 items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glosharp_Clients_IColumnClient_Create_System_String_Glosharp_Models_Response_Column__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method will return a <a class="xref" href="Glosharp.Models.Response.Column.html">Column</a> that will be populated with auto-generated fields
+such as the 'id' and 'create_date'.</p>
+</div>
+  <h5 id="Glosharp_Clients_IColumnClient_Create_System_String_Glosharp_Models_Response_Column__examples">Examples</h5>
+  <pre><code>var newColumnResponse = await glo.Column.Create(boardId, column);</code></pre>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/glosharp/glosharp/new/develop/apiSpec/new?filename=Glosharp_Clients_IColumnClient_Delete_System_String_System_String_.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient.Delete(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/glosharp/glosharp/blob/develop/Glosharp/Clients/IColumnClient.cs/#L65">View Source</a>
+  </span>
+  <a id="Glosharp_Clients_IColumnClient_Delete_" data-uid="Glosharp.Clients.IColumnClient.Delete*"></a>
+  <h4 id="Glosharp_Clients_IColumnClient_Delete_System_String_System_String_" data-uid="Glosharp.Clients.IColumnClient.Delete(System.String,System.String)">Delete(String, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a column by ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Tuple&lt;HttpStatusCode, string&gt;&gt; Delete(string boardId, string columnId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">boardId</span></td>
+        <td><p><a class="xref" href="Glosharp.Models.Response.Board.html">Board</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">columnId</span></td>
+        <td><p><a class="xref" href="Glosharp.Models.Response.Column.html">Column</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Tuple</span>&lt;<span class="xref">System.Net.HttpStatusCode</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/glosharp/glosharp/new/develop/apiSpec/new?filename=Glosharp_Clients_IColumnClient_GetColumns_System_String_.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient.GetColumns(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/glosharp/glosharp/blob/develop/Glosharp/Clients/IColumnClient.cs/#L28">View Source</a>
+  </span>
+  <a id="Glosharp_Clients_IColumnClient_GetColumns_" data-uid="Glosharp.Clients.IColumnClient.GetColumns*"></a>
+  <h4 id="Glosharp_Clients_IColumnClient_GetColumns_System_String_" data-uid="Glosharp.Clients.IColumnClient.GetColumns(System.String)">GetColumns(String)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of columns in a board.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Tuple&lt;HttpStatusCode, string, List&lt;Column&gt;&gt;&gt; GetColumns(string boardId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">boardId</span></td>
+        <td><p>A <a class="xref" href="Glosharp.Models.Response.Board.html">Board</a> Id to reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Tuple</span>&lt;<span class="xref">System.Net.HttpStatusCode</span>, <span class="xref">System.String</span>, <span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Glosharp.Models.Response.Column.html">Column</a>&gt;&gt;&gt;</td>
+        <td><p>Tuple with 3 items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Glosharp_Clients_IColumnClient_GetColumns_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method returns a Tuple with a <span class="xref">System.Net.HttpStatusCode</span> as Item1, a string
+with the http status text and a <a class="xref" href="Glosharp.Models.Response.Column.html">Column</a> as Item3.</p>
+</div>
+  <h5 id="Glosharp_Clients_IColumnClient_GetColumns_System_String__examples">Examples</h5>
+  <pre><code>var columnList = await glo.Column.GetColumn(boardId);</code></pre>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/glosharp/glosharp/new/develop/apiSpec/new?filename=Glosharp_Clients_IColumnClient_Update_System_String_Glosharp_Models_Response_Column_.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient.Update(System.String%2CGlosharp.Models.Response.Column)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/glosharp/glosharp/blob/develop/Glosharp/Clients/IColumnClient.cs/#L57">View Source</a>
+  </span>
+  <a id="Glosharp_Clients_IColumnClient_Update_" data-uid="Glosharp.Clients.IColumnClient.Update*"></a>
+  <h4 id="Glosharp_Clients_IColumnClient_Update_System_String_Glosharp_Models_Response_Column_" data-uid="Glosharp.Clients.IColumnClient.Update(System.String,Glosharp.Models.Response.Column)">Update(String, Column)</h4>
+  <div class="markdown level1 summary"><p>Edits a column by ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Tuple&lt;HttpStatusCode, string, Column&gt;&gt; Update(string boardId, Column column)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,167 +310,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Tuple</span>&lt;<span class="xref">System.Net.HttpStatusCode</span>, <span class="xref">System.String</span>, <a class="xref" href="Glosharp.Models.Response.Column.html">Column</a>&gt;&gt;</td>
-        <td><p>Item 1: <span class="xref">System.Net.HttpStatusCode</span> - Status Code
-Item 2: <span class="xref">System.String</span> - Status Description
-Item 3: <a class="xref" href="Glosharp.Models.Response.Column.html">Column</a> - Column</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/glosharp/glosharp/new/feature/cards/apiSpec/new?filename=Glosharp_Clients_IColumnClient_Delete_System_String_System_String_.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient.Delete(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/glosharp/glosharp/blob/feature/cards/Glosharp/Clients/IColumnClient.cs/#L47">View Source</a>
-  </span>
-  <a id="Glosharp_Clients_IColumnClient_Delete_" data-uid="Glosharp.Clients.IColumnClient.Delete*"></a>
-  <h4 id="Glosharp_Clients_IColumnClient_Delete_System_String_System_String_" data-uid="Glosharp.Clients.IColumnClient.Delete(System.String,System.String)">Delete(String, String)</h4>
-  <div class="markdown level1 summary"><p>Deletes a column by ID</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;HttpStatusCode&gt; Delete(string boardId, string columnId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">boardId</span></td>
-        <td><p><a class="xref" href="Glosharp.Models.Response.Board.html">Board</a></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">columnId</span></td>
-        <td><p><a class="xref" href="Glosharp.Models.Response.Column.html">Column</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Net.HttpStatusCode</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/glosharp/glosharp/new/feature/cards/apiSpec/new?filename=Glosharp_Clients_IColumnClient_GetColumns_System_String_.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient.GetColumns(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/glosharp/glosharp/blob/feature/cards/Glosharp/Clients/IColumnClient.cs/#L19">View Source</a>
-  </span>
-  <a id="Glosharp_Clients_IColumnClient_GetColumns_" data-uid="Glosharp.Clients.IColumnClient.GetColumns*"></a>
-  <h4 id="Glosharp_Clients_IColumnClient_GetColumns_System_String_" data-uid="Glosharp.Clients.IColumnClient.GetColumns(System.String)">GetColumns(String)</h4>
-  <div class="markdown level1 summary"><p>Gets a list of columns in a board.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;Tuple&lt;HttpStatusCode, string, List&lt;Column&gt;&gt;&gt; GetColumns(string boardId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">boardId</span></td>
-        <td><p><a class="xref" href="Glosharp.Models.Response.Board.html">Board</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Tuple</span>&lt;<span class="xref">System.Net.HttpStatusCode</span>, <span class="xref">System.String</span>, <span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Glosharp.Models.Response.Column.html">Column</a>&gt;&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/glosharp/glosharp/new/feature/cards/apiSpec/new?filename=Glosharp_Clients_IColumnClient_Update_System_String_Glosharp_Models_Response_Column_.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient.Update(System.String%2CGlosharp.Models.Response.Column)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/glosharp/glosharp/blob/feature/cards/Glosharp/Clients/IColumnClient.cs/#L39">View Source</a>
-  </span>
-  <a id="Glosharp_Clients_IColumnClient_Update_" data-uid="Glosharp.Clients.IColumnClient.Update*"></a>
-  <h4 id="Glosharp_Clients_IColumnClient_Update_System_String_Glosharp_Models_Response_Column_" data-uid="Glosharp.Clients.IColumnClient.Update(System.String,Glosharp.Models.Response.Column)">Update(String, Column)</h4>
-  <div class="markdown level1 summary"><p>Edits a column by ID</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;Column&gt; Update(string boardId, Column column)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">boardId</span></td>
-        <td><p><a class="xref" href="Glosharp.Models.Response.Board.html">Board</a></p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Glosharp.Models.Response.Column.html">Column</a></td>
-        <td><span class="parametername">column</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Glosharp.Models.Response.Column.html">Column</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -307,10 +322,10 @@ Item 3: <a class="xref" href="Glosharp.Models.Response.Column.html">Column</a> -
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/glosharp/glosharp/new/feature/cards/apiSpec/new?filename=Glosharp_Clients_IColumnClient.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/glosharp/glosharp/new/develop/apiSpec/new?filename=Glosharp_Clients_IColumnClient.md&amp;value=---%0Auid%3A%20Glosharp.Clients.IColumnClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/glosharp/glosharp/blob/feature/cards/Glosharp/Clients/IColumnClient.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/glosharp/glosharp/blob/develop/Glosharp/Clients/IColumnClient.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
