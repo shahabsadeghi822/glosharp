@@ -1,0 +1,17 @@
+# Outputs and stuff
+bin
+obj/
+obj
+.vs/
+
+# Other files
+
+Glosharp\.sln\.DotSettings\.user
+
+Glosharp\.Tests/config\.json
+
+\.vscode/
+
+\.idea/\.idea\.Glosharp/\.idea/
+
+\.idea/\.idea\.Glosharp/

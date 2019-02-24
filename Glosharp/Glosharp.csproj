@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Glosharp</PackageId>
+    <Description>C# SDK for GitKraken Glo Boards</Description>
+    <AssemblyName>Glosharp</AssemblyName>
+    <RootNamespace>Glosharp</RootNamespace>
+    <Author>Glosharp</Author>
+    <PackageProjectUrl>https://github.com/glosharp/glosharp</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <VersionSuffix>ALPHA</VersionSuffix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="newtonsoft.json" Version="12.0.1" />
+    <PackageReference Include="RestSharp" Version="106.6.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
