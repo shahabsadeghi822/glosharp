@@ -16,7 +16,7 @@ or
 cp config-example.json config.json
 ```
 
-**Glosharp cannot work with OAuth just yet.**
+**Note: Glosharp cannot work with OAuth just yet.**
 
 ```csharp
 var config = new Connection(new Configuration());
