@@ -9,7 +9,7 @@ A C# SDK for working with Gitkraken Glo Boards
 There are a couple ways that you can set your Personal Access Token. You can set it in the Environment variable named `GlosharpToken` or you can store it in the `config.json` file. 
 
 ```powershell
-$env:GlosharpToken=your_personal_token
+$env:GlosharpPat=your_personal_token
 ```
 or
 ```bash
